@@ -16,7 +16,7 @@ import java.util.HashMap;
 import java.util.Random;
 
 public class Run {
-	private static String filePath = "./questions.properties";
+	private static String filePath = "./questions.txt";
 
 	public static void main(String[] args) {
 		Questions questions = new Questions();
