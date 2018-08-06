@@ -1,6 +1,6 @@
 package io.github.wildmeowth.run;
 
-import io.github.wildmeowth.sc.Paint;
+import io.github.wildmeowth.paint.Paint;
 
 public class Run {
 

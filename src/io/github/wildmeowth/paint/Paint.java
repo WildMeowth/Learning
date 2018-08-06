@@ -1,4 +1,4 @@
-package io.github.wildmeowth.sc;
+package io.github.wildmeowth.paint;
 
 import java.awt.Button;
 import java.awt.Frame;
