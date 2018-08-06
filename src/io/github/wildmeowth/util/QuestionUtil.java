@@ -2,7 +2,7 @@ package io.github.wildmeowth.util;
 
 import java.util.Random;
 
-import io.github.wildmewoth.entity.Questions;
+import io.github.wildmeowth.entity.Questions;
 
 public class QuestionUtil {
 	public static String getQuestion(Questions questions) {

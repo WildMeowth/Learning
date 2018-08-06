@@ -12,7 +12,7 @@ import java.util.HashMap;
 
 import io.github.wildmeowth.util.QuestionUtil;
 import io.github.wildmeowth.util.ReadUtil;
-import io.github.wildmewoth.entity.Questions;
+import io.github.wildmeowth.entity.Questions;
 
 public class Paint {
 	private static String filePath = "./questions.txt";

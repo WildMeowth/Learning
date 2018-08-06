@@ -1,4 +1,4 @@
-package src.io.github.wildmeowth.entity;
+package io.github.wildmeowth.entity;
 
 import java.util.HashMap;
 
