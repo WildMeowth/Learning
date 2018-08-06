@@ -33,13 +33,13 @@ public class Paint {
 				System.exit(0);
 			}
 		});
+
+		HashMap<String, String> questionMap = ReadUtil.readQuestionTxt(filePath);
+		Questions questions = new Questions();
+		questions.setQuestionMap(questionMap);
 		btn.addActionListener(new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent e){
-				HashMap<String, String> questionMap = ReadUtil.readQuestionTxt(filePath);
-				Questions questions = new Questions();
-				questions.setQuestionMap(questionMap);
-				System.out.println(questions);
 				tarea.setText(QuestionUtil.getQuestion(questions));
 			}
 		});

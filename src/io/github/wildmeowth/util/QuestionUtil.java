@@ -9,7 +9,7 @@ public class QuestionUtil {
 		Random rand = new Random();
 		int i = rand.nextInt(questions.getQuestionMap().size())+1;
 		String question = questions.getQuestionMap().get(String.valueOf(i));
-		System.out.println("click");
+		//System.out.println("click");
 		return question;
 	}
 }
