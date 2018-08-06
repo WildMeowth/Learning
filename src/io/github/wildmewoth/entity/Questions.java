@@ -1,4 +1,4 @@
-package learning;
+package io.github.wildmewoth.entity;
 
 import java.util.HashMap;
 
@@ -11,5 +11,10 @@ public class Questions {
 
 	public void setQuestionMap(HashMap<String, String> questionMap) {
 		this.questionMap = questionMap;
+	}
+
+	@Override
+	public String toString() {
+		return "Questions [questionMap=" + questionMap + "]";
 	}
 }
