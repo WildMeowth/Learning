@@ -15,7 +15,6 @@ import io.github.wildmeowth.util.ReadUtil;
 import io.github.wildmeowth.entity.Questions;
 
 public class Paint {
-	private static String filePath = "./questions.txt";
 	public static void paint(){
 		Frame frame = new Frame("Questions");
 		frame.setVisible(true);
@@ -34,7 +33,9 @@ public class Paint {
 			}
 		});
 
-		HashMap<String, String> questionMap = ReadUtil.readQuestionTxt(filePath);
+		String txtURL = Paint.class.getResource("/io/github/wildmeowth/resources/questions.properties").getPath();
+		System.out.println(txtURL);
+		HashMap<String, String> questionMap = ReadUtil.readQuestionTxt(txtURL);
 		Questions questions = new Questions();
 		questions.setQuestionMap(questionMap);
 		btn.addActionListener(new ActionListener(){
